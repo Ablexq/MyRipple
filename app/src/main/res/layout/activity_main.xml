@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.lenve.rippledrawable.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/nomaskripple"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/withmaskripple"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/picripple"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/shaperipple"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/selectorripple"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+
+        <!--0000000000000000000000000000000000000000000000000000-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent" />
+
+        <!--0000000000000000000000000000000000000000000000000000-->
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/a"
+            android:gravity="center"
+            android:text="属性动画：view中心点" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="揭露动画：view中心点" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="揭露动画：view左上角" />
+
+        <!--0000000000000000000000000000000000000000000000000000-->
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转activity动画"
+            android:transitionName="mybtn1" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="第一个界面的第二个按钮"
+            android:transitionName="mybtn2" />
+
+    </LinearLayout>
+</ScrollView>
